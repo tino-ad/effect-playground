@@ -1,1 +1,32 @@
-{"name":"effect-playground","version":"0.1.0","type":"module","private":true,"scripts":{"start":"tsx src/index.ts","build":"tsup src/index.ts --dts --format esm,cjs --clean","test":"vitest"},"dependencies":{"effect":"^3.7.2"},"devDependencies":{"@types/node":"^20.11.0","tsup":"^8.0.1","tsx":"^4.7.0","typescript":"^5.5.0","vitest":"^1.6.0"}}
+{
+  "name": "effect-playground",
+  "version": "0.1.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "start": "tsx src/index.ts",
+    "build": "tsup src/index.ts --dts --format esm,cjs --clean",
+    "test": "vitest",
+    "test:watch": "vitest --watch",
+    "lint": "eslint . --ext .ts",
+    "lint:fix": "eslint . --ext .ts --fix",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "dependencies": {
+    "effect": "^3.7.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "tsup": "^8.0.1",
+    "tsx": "^4.7.0",
+    "typescript": "^5.5.0",
+    "vitest": "^1.6.0",
+    "eslint": "^8.57.0",
+    "@typescript-eslint/parser": "^7.18.0",
+    "@typescript-eslint/eslint-plugin": "^7.18.0",
+    "prettier": "^3.3.3",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.1.3"
+  }
+}
