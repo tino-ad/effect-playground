@@ -1,0 +1,1 @@
+{"name": "example-app","version": "0.1.0","private": true,"type": "module","scripts": {"start": "tsx src/index.ts","build": "tsup src/index.ts --format esm,cjs --clean","lint": "eslint . --ext .ts","lint:fix": "eslint . --ext .ts --fix"},"dependencies": {"@effect-playground/countdown": "workspace:*","effect": "^3.7.2"}}
